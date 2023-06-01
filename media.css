@@ -1,0 +1,52 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 38px;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+    }
+    img{
+        display: none;
+    }
+    ul{
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 700px)  and (max-width: 1200px){
+    h2{
+        font-size: 20px;
+    }
+    span{
+        font-size: 30px;
+    }
+    p{
+        line-height: 20px;
+        max-width: 200px;
+    }
+    input{
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 15px;
+        height: 20px;
+        border: none;
+        font-size: 15px;
+    }
+    form [type="submit"]{
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+
